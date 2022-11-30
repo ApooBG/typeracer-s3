@@ -6,4 +6,6 @@ workflows:
       jobs: — node/test
       name: Deploy
 
-command: |
+branches:
+  only:
+    - dev
