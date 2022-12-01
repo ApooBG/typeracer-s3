@@ -41,5 +41,6 @@ jobs:
       uses: docker/build-push-action@v3
       with:
           context: .
+          file: client/Dockerfile
           push: true
           tags: apoobg/typeracerreact:dev
